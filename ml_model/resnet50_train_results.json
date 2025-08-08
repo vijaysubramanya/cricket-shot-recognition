@@ -1,0 +1,10 @@
+{
+  "ResNet50_Training_Results": {
+    "Final_Epoch": 29,
+    "Train_Loss": 0.02,
+    "Validation_Loss": 0.03,
+    "Train_Accuracy": 99.5,
+    "Validation_Accuracy": 99.8
+  }
+}
+

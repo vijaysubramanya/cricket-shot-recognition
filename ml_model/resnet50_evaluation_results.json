@@ -1,0 +1,42 @@
+{
+  "Classification_Report": {
+    "drive": {
+      "precision": 0.98,
+      "recall": 0.97,
+      "f1_score": 0.97,
+      "support": 245
+    },
+    "legglance-flick": {
+      "precision": 0.99,
+      "recall": 0.99,
+      "f1_score": 0.99,
+      "support": 224
+    },
+    "pull": {
+      "precision": 0.99,
+      "recall": 0.99,
+      "f1_score": 0.99,
+      "support": 252
+    },
+    "sweep": {
+      "precision": 0.98,
+      "recall": 1.00,
+      "f1_score": 0.99,
+      "support": 224
+    },
+    "accuracy": 0.99,
+    "macro_avg": {
+      "precision": 0.99,
+      "recall": 0.99,
+      "f1_score": 0.99,
+      "support": 945
+    },
+    "weighted_avg": {
+      "precision": 0.99,
+      "recall": 0.99,
+      "f1_score": 0.99,
+      "support": 945
+    }
+  }
+}
+

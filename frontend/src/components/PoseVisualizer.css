@@ -1,0 +1,70 @@
+.pose-visualizer {
+  margin-top: 2rem;
+  padding: 1rem;
+}
+
+.pose-visualizer h3 {
+  color: #333;
+  margin-bottom: 1rem;
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+.canvas-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+  background: #f8f9fa;
+  border-radius: 10px;
+  padding: 1rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.pose-canvas {
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.pose-info {
+  background: #f8f9fa;
+  border-radius: 10px;
+  padding: 1rem;
+  margin-top: 1rem;
+  border-left: 4px solid #28a745;
+}
+
+.pose-info p {
+  margin: 0.5rem 0;
+  color: #666;
+  font-size: 0.95rem;
+}
+
+.pose-info strong {
+  color: #333;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .pose-visualizer {
+    padding: 0.5rem;
+  }
+  
+  .pose-visualizer h3 {
+    font-size: 1.2rem;
+  }
+  
+  .canvas-container {
+    padding: 0.5rem;
+  }
+  
+  .pose-info {
+    padding: 0.8rem;
+  }
+  
+  .pose-info p {
+    font-size: 0.9rem;
+  }
+} 
