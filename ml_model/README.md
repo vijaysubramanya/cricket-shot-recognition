@@ -106,6 +106,11 @@ The model is evaluated using:
 
 ## Usage
 
+### Prerequisites
+Before using the model, ensure you have downloaded the pre-trained weights:
+1. Download `best_resnet50_cricket_model.pth` from the [Google Drive link](https://drive.google.com/file/d/1JrAERAE0mJsVV4zWzlc7clXwTRQ_qv0p/view?usp=drive_link)
+2. Place it in the `backend/ml_model/` directory
+
 ### Training the Model
 ```python
 # Run the training script
@@ -136,12 +141,26 @@ jupyter notebook resnet50_cricket_classifier.ipynb
 
 ## Model Files
 
-The training process generates:
-- `best_resnet50_cricket_model.pth` - Best model weights (saved in backend/)
+### Training Generated Files (Included in Repository)
 - `resnet50_model_info.json` - Model metadata and configuration
 - `resnet50_evaluation_results.json` - Complete evaluation metrics and per-class performance
 - `resnet50_train_results.json` - Final training statistics and accuracies
 - Training visualization plots (PNG files)
+
+### Pre-trained Model Download
+The trained model weights are hosted separately due to file size constraints:
+
+**Download Link**: [ResNet50 Cricket Model - Google Drive](https://drive.google.com/file/d/1JrAERAE0mJsVV4zWzlc7clXwTRQ_qv0p/view?usp=drive_link)
+
+**File Details**:
+- **Filename**: `best_resnet50_cricket_model.pth`
+- **Size**: ~97 MB
+- **Location**: Place in `backend/ml_model/` directory after download
+
+### Setup Instructions
+1. Download the model file from the Google Drive link above
+2. Place `best_resnet50_cricket_model.pth` in the `backend/ml_model/` directory
+3. Ensure the file path matches: `backend/ml_model/best_resnet50_cricket_model.pth`
 
 ## Integration
 
@@ -168,6 +187,7 @@ To retrain or fine-tune the model:
 ## Troubleshooting
 
 ### Common Issues
+- **Model file not found**: Ensure you've downloaded `best_resnet50_cricket_model.pth` from Google Drive and placed it in `backend/ml_model/`
 - **CUDA Out of Memory**: Reduce batch size or use CPU
 - **Low Accuracy**: Check data quality, increase epochs, or adjust learning rate
 - **Overfitting**: Increase dropout, add regularization, or reduce model complexity
